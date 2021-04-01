@@ -2,13 +2,13 @@
 
 ## Краткое описание
 
-1.04.2021 было проведено функциональное тестирование сисемы пополнения счета
+1.04.2021 было проведено функциональное тестирование системы пополнения счета
 
 На тестирование затрачено: 30 минут
 
 В результате тестирования был выявлен следующий дефект: 
 
-* [скриншот] (https://sun9-39.userapi.com/impf/EE5Lk0RDijLdTSie0N8gUMqW5fYK4MdWFHeIig/eV5aEpx_mK8.jpg?size=1919x887&quality=96&sign=f1f6ea0f09971d4b64896ba731f1093d&type=album)
+* При пополнении банковского счета баланс становится отрицательным. [скриншот] (https://sun9-39.userapi.com/impf/EE5Lk0RDijLdTSie0N8gUMqW5fYK4MdWFHeIig/eV5aEpx_mK8.jpg?size=1919x887&quality=96&sign=f1f6ea0f09971d4b64896ba731f1093d&type=album)
 
 ## Описание процесса тестирования
 
@@ -18,7 +18,7 @@
 
 1. Открыть IntelliJ IDEA и файл Main.java
 
-2. В открывшемся коде вставить в balance число 2000000000, в transaction 500 000 000:
+2. В открывшемся коде вставить в значение balance число 2000000000, в значение transaction 500 000 000:
 
   public static void main(String[] args) {
         int balance = 2_000_000_000;
