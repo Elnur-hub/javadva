@@ -8,7 +8,7 @@
 
 В результате тестирования был выявлен следующий дефект: 
 
-* При пополнении банковского счета баланс становится отрицательным. [скриншот] (https://sun9-39.userapi.com/impf/EE5Lk0RDijLdTSie0N8gUMqW5fYK4MdWFHeIig/eV5aEpx_mK8.jpg?size=1919x887&quality=96&sign=f1f6ea0f09971d4b64896ba731f1093d&type=album)
+* [Баланс клиентского счета становится отрицательным при попытке пополнения](https://github.com/Elnur-hub/javadva/issues/1)
 
 ## Описание процесса тестирования
 
